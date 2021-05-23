@@ -1,0 +1,135 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=cyrillic";
+
+:root {
+    --main-font-color: #fff;
+}
+
+html {
+    color: var(--main-font-color);
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0;
+    font-size: 10rem;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    padding: 5vw;
+    font-size: 4rem;
+    text-align: center;
+}
+h3 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.header {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-image: url(res/OmniCarBG.jpg);
+    background-position: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.github-blocks {
+    display: flex;
+    align-items: stretch;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.github-block {
+    color: var(--main-font-color);
+    display: block;
+    background-color: #000000aa;
+    border: 3px solid var(--main-font-color);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.github-block h3 {
+    padding: 10px;
+}
+
+.github-block:hover {
+    color: #000;
+    background-color: #ffffffaa;
+    text-decoration: none;
+    border-color: #ffffff00;
+}
+
+.github-block img {
+    width: 10vw;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-height: 200px;
+}
+
+.showcase-body {
+    display: flex;
+}
+
+.showcase-body div {
+    text-align: center;
+    width: 50vw;
+}
+
+.showcase-description {
+    padding: 5vw;
+}
+
+.showcase-description p {
+    line-height: 1.6;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.showcase-video {
+    padding-right: 5vw;
+    padding-bottom: 3vw;
+}
+
+video {
+    width: 40vw;
+}
+
+.hardware {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 3vw;
+}
+
+.hardware img {
+    width: 80vw;
+}
+
+.software {
+    text-align: center;
+}
