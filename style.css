@@ -106,9 +106,9 @@ h3 {
 
 .showcase-description p {
     line-height: 1.6;
-    text-indent: 50px;
+    text-indent: 2vw;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.8vw;
 }
 
 .showcase-video {
@@ -132,4 +132,8 @@ video {
 
 .software {
     text-align: center;
+}
+
+.software img {
+    width: 60vw;
 }
