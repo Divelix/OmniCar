@@ -89,6 +89,15 @@ h3 {
     justify-content: center;
     height: 100vh;
     max-height: 200px;
+    margin: 10px;
+}
+
+.github-block a:link, .github-block a:visited {
+    color: red;
+}
+
+.github-block a:hover {
+    color: yellow;
 }
 
 .showcase-body {
@@ -136,4 +145,16 @@ video {
 
 .software img {
     width: 60vw;
+    padding-bottom: 50px;;
+}
+
+footer {
+    overflow: hidden; /* to keep img inside footer */
+    color: #1e51a4;
+    background-color: rgb(240, 240, 240);
+    line-height: 2;
+}
+footer img {
+    float: left;
+    width: 20vw;
 }
