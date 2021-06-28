@@ -129,6 +129,11 @@ video {
     width: 40vw;
 }
 
+iframe {
+    width: 40vw;
+    height: 35vw;
+}
+
 .hardware {
     text-align: center;
     background-color: rgb(31, 31, 31);

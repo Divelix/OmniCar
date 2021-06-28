@@ -1,2 +1,2 @@
 # OmniCar
-Web page for OmniCar project
+[Web page](https://divelix.github.io/OmniCar/) for OmniCar project
