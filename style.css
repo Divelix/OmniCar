@@ -4,6 +4,11 @@
     --main-font-color: #fff;
 }
 
+html, body, div, p, h2, a, ul, li, img {
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     color: var(--main-font-color);
 	font-size: 16px;
@@ -23,7 +28,7 @@ h1 {
 }
 h2 {
     margin: 0;
-    padding: 5vw;
+    padding: 5rem;
     font-size: 4rem;
     text-align: center;
 }
@@ -87,7 +92,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100vw;
     max-height: 200px;
     margin: 10px;
 }
@@ -154,12 +159,37 @@ iframe {
 }
 
 footer {
-    overflow: hidden; /* to keep img inside footer */
-    color: #1e51a4;
+    display: flex;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(240, 240, 240);
+}
+.itmo_logo img {
+    /* float: left; */
+    height: 75px;
+}
+
+.author_contacts {
+    color: #1e51a4;
     line-height: 2;
 }
-footer img {
-    float: left;
-    width: 20vw;
+
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        padding: 2rem;
+        font-size: 1.7rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .icon {
+        max-height: 50px;
+    }
+    p {
+        font-size: 0.6rem;
+    }
 }
